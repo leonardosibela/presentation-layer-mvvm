@@ -12,13 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:visibility="invisible"
-        app:layout_constraintBottom_toBottomOf="@+id/text_input_layout"
+        app:layout_constraintBottom_toBottomOf="@+id/textInputLayoutPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/text_input_layout_two" />
+        app:layout_constraintTop_toTopOf="@+id/textInputLayoutEmail" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_layout_two"
+        android:id="@+id/textInputLayoutEmail"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
@@ -39,7 +39,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/text_input_layout"
+        android:id="@+id/textInputLayoutPassword"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -47,7 +47,7 @@
         app:errorEnabled="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_input_layout_two">
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayoutEmail">
 
         <EditText
 
